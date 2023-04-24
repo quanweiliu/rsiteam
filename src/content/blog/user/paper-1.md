@@ -1,5 +1,5 @@
 ---
-title: A Fast Dynamic Graph Convolutional Network and CNN Parallel Network for Hyperspectral Image Classification
+title: “A Fast Dynamic Graph Convolutional Network and CNN Parallel Network for Hyperspectral Image Classification”
 date: 2023-02-02
 categories: 论文
 tags: [论文,搜索]
