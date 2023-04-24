@@ -1,0 +1,15 @@
+---
+import { getEntryBySlug } from "astro:content";
+import MarkdownLayout from "@/layouts/MarkdownLayout.astro";
+import BlogInfo from "@/components/BlogInfo.astro";
+const enterprise = await getEntryBySlug("about", "joinus");
+const { Content } = await enterprise.render();
+---
+
+<MarkdownLayout
+  content={{
+    title: "加入我们",
+  }}
+>
+  <Content />
+</MarkdownLayout>
